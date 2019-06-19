@@ -13,8 +13,8 @@ export class ProductList extends Component {
         this.state = {
             selectedProducts:[
 
-
-            ],
+                
+             ],
             products:[   
                 {
                     id:1,
@@ -35,6 +35,8 @@ export class ProductList extends Component {
         };
         this.handleSubmit=this.handleSubmit.bind(this)
     
+
+    
 }
 handleSubmit(product){
 
@@ -52,6 +54,7 @@ handleSubmit(product){
                    {
                        this.state.products.map(product =>
                         <Product key={product.id} data = {product} click={this.handleSubmit}/>
+
                     )}
                 </div>
             );
