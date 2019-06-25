@@ -1,0 +1,21 @@
+.sidebar{
+background-image: linear-gradient(to bottom, #343a40,#0d0d0e);
+min-height: 1000px;
+/* background-color: #1f54cf; */
+}
+.main{
+  /* background-image: linear-gradient(to bottom, #b9c7e9,#6f96f1); */
+min-height: 1000px;
+}
+.list{
+  color:#405c8f;
+  opacity:0.6
+}
+.zoomdetail{
+  transition: transform 0.2s;
+}
+.zoomdetail.hover{
+  transform: scale(1.10);
+  color:#e7eaf0;
+  background-color: #1f54cf
+}
